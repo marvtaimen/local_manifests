@@ -8,10 +8,10 @@
   <project name="marvtaimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="android-9.0" />
 
  <!-- Kernel -->
-  <project name="marvtaimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="pie"/>
+  <project name="marvtaimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="pie2"/>
 
  <!-- Blobz -->
-  <project name="marvtaimen/android_vendor_google" path="vendor/google" remote="github" revision="pie" />
+  <project name="marvtaimen/android_vendor_google" path="vendor/google" remote="github" revision="pie2" />
   <project name="REV3NT3CH/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab2" revision="pie" />
 
  </manifest>
