@@ -5,7 +5,7 @@
            fetch="https://gitlab.com/" />
  <!-- Device -->
   <project name="marvtaimen/android_device_google_taimen" path="device/google/taimen" remote="github" revision="pie2" />
-  <project name="marvtaimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="pie2" />
+  <project name="marvtaimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="p9.02" />
 
  <!-- Kernel -->
   <project name="marvtaimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="pie2"/>
