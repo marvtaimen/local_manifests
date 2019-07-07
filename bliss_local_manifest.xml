@@ -7,7 +7,7 @@
   <remove-project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998,pdk-qcom" />
   <remove-project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project name="marvtaimen/android_device_google_taimen" path="device/google/taimen" remote="github" revision="p9.0" />
-  <project name="marvtaimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="pie" />
+  <project name="marvtaimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="p9.0" />
 
  <!-- Kernel -->
   <project name="marvtaimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="pie"/>
