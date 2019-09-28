@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+ <!-- Device -->
+  <project name="ColtOS-Devices/android_device_google_taimen" path="device/google/taimen" remote="github" revision="c9" />
+  <project name="ColtOS-Devices/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="c9" />
+
+ <!-- Kernel -->
+  <project name="ColtOS-Devices/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="c9"/>
+
+ <!-- Blobz -->
+  <project name="ColtOS-Devices/android_vendor_google" path="vendor/google" remote="github" revision="c9" />
+  <project name="REV3NT3CH/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="pie" />
+
+ </manifest>
