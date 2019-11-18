@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- Removes -->
+  <remove-project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="los" />
+  <remove-project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
+
  <!-- Device -->
   <project name="BlissRoms-Devices/android_device_google_taimen" path="device/google/taimen" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="q" />
@@ -10,6 +14,9 @@
 
  <!-- Blobz -->
   <project name="BlissRoms-Devices/proprietary_android_vendor_google" path="vendor/google" remote="github" revision="q" />
+
+ <!-- Misc -->
+  <project name="PixelDust-Project-X/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="github" revision="ten" />
   <project name="DirtyUnicorns/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="q10x" />
 
  </manifest>
