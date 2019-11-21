@@ -16,4 +16,7 @@
  <!-- Misc -->
   <project name="DirtyUnicorns/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="q10x" />
 
+  <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" remote="aosp" groups="qcom_msm8998,pdk-qcom" />
+
+
  </manifest>
