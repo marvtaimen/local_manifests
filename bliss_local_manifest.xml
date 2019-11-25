@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <!-- Removes -->
-  <remove-project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
  
  <!-- Device -->
   <project name="BlissRoms-Devices/android_device_google_taimen" path="device/google/taimen" remote="github" revision="q" />
