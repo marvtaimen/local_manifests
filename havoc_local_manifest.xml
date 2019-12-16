@@ -4,6 +4,9 @@
    <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
+ <!-- Removes -->
+  <remove-project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
+  <remove-project path="device/google/wahoo" name="device/google/wahoo" groups="device,generic_fs,wahoo" /> 
  
  <!-- Device -->
   <project name="marvtaimen/android_device_google_taimen" path="device/google/taimen" remote="github" revision="hq" />
